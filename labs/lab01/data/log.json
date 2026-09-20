@@ -1,0 +1,650 @@
+[
+    {
+        "event": "login",
+        "user": "admin_alpha",
+        "result": "success",
+        "timestamp": "2026-09-20 15:19:32",
+        "args": [
+            "admin_alpha",
+            "SuperSecretPass2026!"
+        ],
+        "kwargs": {
+            "users_db": [
+                {
+                    "username": "admin_alpha",
+                    "password_hash": "71a140d9bb6ca9235cf4e849481984e8b83f0f3fe45a2b0921898f971369445c9b21301a8a630c5e56a8f0ef26eef8ce27430b3827c686f5dd881a0941a7b99f"
+                },
+                {
+                    "username": "analyst_beta",
+                    "password_hash": "7fcc917612aeacd44d68bb8e7d78dda94c80ed9ca008aeeffd96e51d3d40e990a42bbc9a7d2998598625f8ffcaf142996ffa79eb7d4f900fcce57cee27d90cb5"
+                },
+                {
+                    "username": "manager_gamma",
+                    "password_hash": "caee01072cd817bd706bff8095f50a2b2a2ed04364d4a3ef02ea4145ab31824ae34a6362aa7ede252de23a1999c4347c3d86d6f7083e91e37469b5755c6794fe"
+                },
+                {
+                    "username": "auditor_delta",
+                    "password_hash": "90b9c0d7dd63779f589e676b58deadee1a09d8bda488305f9ecb7d7a7e0bc4820d35a7e559243a7feaa14aa70b272d18661351cb3beddcdb3a0d9d6d39c384f0"
+                },
+                {
+                    "username": "dev_engineer",
+                    "password_hash": "d6a5f553037b16c247e8cef4f7bb7849e325610e86bf848ca68e10acca3fd99026067eb16914c4fd4f3ce1a371ee552081030d2fbd74bb6221154b4729ed4c66"
+                },
+                {
+                    "username": "soc_operator",
+                    "password_hash": "a88bfdc00639734485329f03f400f0c806e1cf1d72c23d5222a179b5b69891e4246827dad79f575955457f7462269839334d6785e0be5bec86505967ec6f39e4"
+                },
+                {
+                    "username": "forensic_lead",
+                    "password_hash": "facb83840c3e1843dbfcbc4cbd41967b10d42d05205b3f4ec564a3d18be03087e8a08eab1e69815bc9303935f1fb6ed22395f1b3cffdbc06eb1d235f449edc6b"
+                },
+                {
+                    "username": "cloud_security",
+                    "password_hash": "f9a67e525e4ab132851a6925d029e2ef63b124db540ef42d12ac597d65f696334b9867a69222cfdacf4d9225299c60b66ea9e06bcfcf0f513f4cfbcbca479a9c"
+                },
+                {
+                    "username": "network_admin",
+                    "password_hash": "c2ee6c6bbba32ca9f982f4da5151d6cc819743ae1a2f29127a9565c785bc07f02cab664b1a33ef675c4a2034d72e165103b80463e3ca1b09d1c8b7eefd4f8adf"
+                },
+                {
+                    "username": "intern_student",
+                    "password_hash": "37b25284403a0ecc8fd2ab675bd833c93e861277648b7c092748b7a7df9fbb3e59c332d5f4e5d4fdabe43f67367225fe083318a3e8884a314574b55e584c253a"
+                }
+            ]
+        }
+    },
+    {
+        "event": "login",
+        "user": "admin_alpha",
+        "result": "failure",
+        "timestamp": "2026-09-20 15:19:32",
+        "args": [
+            "admin_alpha",
+            "WrongPasswordLength123!"
+        ],
+        "kwargs": {
+            "users_db": [
+                {
+                    "username": "admin_alpha",
+                    "password_hash": "71a140d9bb6ca9235cf4e849481984e8b83f0f3fe45a2b0921898f971369445c9b21301a8a630c5e56a8f0ef26eef8ce27430b3827c686f5dd881a0941a7b99f"
+                },
+                {
+                    "username": "analyst_beta",
+                    "password_hash": "7fcc917612aeacd44d68bb8e7d78dda94c80ed9ca008aeeffd96e51d3d40e990a42bbc9a7d2998598625f8ffcaf142996ffa79eb7d4f900fcce57cee27d90cb5"
+                },
+                {
+                    "username": "manager_gamma",
+                    "password_hash": "caee01072cd817bd706bff8095f50a2b2a2ed04364d4a3ef02ea4145ab31824ae34a6362aa7ede252de23a1999c4347c3d86d6f7083e91e37469b5755c6794fe"
+                },
+                {
+                    "username": "auditor_delta",
+                    "password_hash": "90b9c0d7dd63779f589e676b58deadee1a09d8bda488305f9ecb7d7a7e0bc4820d35a7e559243a7feaa14aa70b272d18661351cb3beddcdb3a0d9d6d39c384f0"
+                },
+                {
+                    "username": "dev_engineer",
+                    "password_hash": "d6a5f553037b16c247e8cef4f7bb7849e325610e86bf848ca68e10acca3fd99026067eb16914c4fd4f3ce1a371ee552081030d2fbd74bb6221154b4729ed4c66"
+                },
+                {
+                    "username": "soc_operator",
+                    "password_hash": "a88bfdc00639734485329f03f400f0c806e1cf1d72c23d5222a179b5b69891e4246827dad79f575955457f7462269839334d6785e0be5bec86505967ec6f39e4"
+                },
+                {
+                    "username": "forensic_lead",
+                    "password_hash": "facb83840c3e1843dbfcbc4cbd41967b10d42d05205b3f4ec564a3d18be03087e8a08eab1e69815bc9303935f1fb6ed22395f1b3cffdbc06eb1d235f449edc6b"
+                },
+                {
+                    "username": "cloud_security",
+                    "password_hash": "f9a67e525e4ab132851a6925d029e2ef63b124db540ef42d12ac597d65f696334b9867a69222cfdacf4d9225299c60b66ea9e06bcfcf0f513f4cfbcbca479a9c"
+                },
+                {
+                    "username": "network_admin",
+                    "password_hash": "c2ee6c6bbba32ca9f982f4da5151d6cc819743ae1a2f29127a9565c785bc07f02cab664b1a33ef675c4a2034d72e165103b80463e3ca1b09d1c8b7eefd4f8adf"
+                },
+                {
+                    "username": "intern_student",
+                    "password_hash": "37b25284403a0ecc8fd2ab675bd833c93e861277648b7c092748b7a7df9fbb3e59c332d5f4e5d4fdabe43f67367225fe083318a3e8884a314574b55e584c253a"
+                }
+            ]
+        }
+    },
+    {
+        "event": "login",
+        "user": "unknown_user",
+        "result": "failure",
+        "timestamp": "2026-09-20 15:19:32",
+        "args": [
+            "unknown_user",
+            "AnyValidPassword123!"
+        ],
+        "kwargs": {
+            "users_db": [
+                {
+                    "username": "admin_alpha",
+                    "password_hash": "71a140d9bb6ca9235cf4e849481984e8b83f0f3fe45a2b0921898f971369445c9b21301a8a630c5e56a8f0ef26eef8ce27430b3827c686f5dd881a0941a7b99f"
+                },
+                {
+                    "username": "analyst_beta",
+                    "password_hash": "7fcc917612aeacd44d68bb8e7d78dda94c80ed9ca008aeeffd96e51d3d40e990a42bbc9a7d2998598625f8ffcaf142996ffa79eb7d4f900fcce57cee27d90cb5"
+                },
+                {
+                    "username": "manager_gamma",
+                    "password_hash": "caee01072cd817bd706bff8095f50a2b2a2ed04364d4a3ef02ea4145ab31824ae34a6362aa7ede252de23a1999c4347c3d86d6f7083e91e37469b5755c6794fe"
+                },
+                {
+                    "username": "auditor_delta",
+                    "password_hash": "90b9c0d7dd63779f589e676b58deadee1a09d8bda488305f9ecb7d7a7e0bc4820d35a7e559243a7feaa14aa70b272d18661351cb3beddcdb3a0d9d6d39c384f0"
+                },
+                {
+                    "username": "dev_engineer",
+                    "password_hash": "d6a5f553037b16c247e8cef4f7bb7849e325610e86bf848ca68e10acca3fd99026067eb16914c4fd4f3ce1a371ee552081030d2fbd74bb6221154b4729ed4c66"
+                },
+                {
+                    "username": "soc_operator",
+                    "password_hash": "a88bfdc00639734485329f03f400f0c806e1cf1d72c23d5222a179b5b69891e4246827dad79f575955457f7462269839334d6785e0be5bec86505967ec6f39e4"
+                },
+                {
+                    "username": "forensic_lead",
+                    "password_hash": "facb83840c3e1843dbfcbc4cbd41967b10d42d05205b3f4ec564a3d18be03087e8a08eab1e69815bc9303935f1fb6ed22395f1b3cffdbc06eb1d235f449edc6b"
+                },
+                {
+                    "username": "cloud_security",
+                    "password_hash": "f9a67e525e4ab132851a6925d029e2ef63b124db540ef42d12ac597d65f696334b9867a69222cfdacf4d9225299c60b66ea9e06bcfcf0f513f4cfbcbca479a9c"
+                },
+                {
+                    "username": "network_admin",
+                    "password_hash": "c2ee6c6bbba32ca9f982f4da5151d6cc819743ae1a2f29127a9565c785bc07f02cab664b1a33ef675c4a2034d72e165103b80463e3ca1b09d1c8b7eefd4f8adf"
+                },
+                {
+                    "username": "intern_student",
+                    "password_hash": "37b25284403a0ecc8fd2ab675bd833c93e861277648b7c092748b7a7df9fbb3e59c332d5f4e5d4fdabe43f67367225fe083318a3e8884a314574b55e584c253a"
+                }
+            ]
+        }
+    },
+    {
+        "event": "login",
+        "user": "admin_alpha",
+        "result": "success",
+        "timestamp": "2026-09-20 15:31:10",
+        "args": [
+            "admin_alpha",
+            "SuperSecretPass2026!"
+        ],
+        "kwargs": {
+            "users_db": [
+                {
+                    "username": "admin_alpha",
+                    "password_hash": "71a140d9bb6ca9235cf4e849481984e8b83f0f3fe45a2b0921898f971369445c9b21301a8a630c5e56a8f0ef26eef8ce27430b3827c686f5dd881a0941a7b99f"
+                },
+                {
+                    "username": "analyst_beta",
+                    "password_hash": "7fcc917612aeacd44d68bb8e7d78dda94c80ed9ca008aeeffd96e51d3d40e990a42bbc9a7d2998598625f8ffcaf142996ffa79eb7d4f900fcce57cee27d90cb5"
+                },
+                {
+                    "username": "manager_gamma",
+                    "password_hash": "caee01072cd817bd706bff8095f50a2b2a2ed04364d4a3ef02ea4145ab31824ae34a6362aa7ede252de23a1999c4347c3d86d6f7083e91e37469b5755c6794fe"
+                },
+                {
+                    "username": "auditor_delta",
+                    "password_hash": "90b9c0d7dd63779f589e676b58deadee1a09d8bda488305f9ecb7d7a7e0bc4820d35a7e559243a7feaa14aa70b272d18661351cb3beddcdb3a0d9d6d39c384f0"
+                },
+                {
+                    "username": "dev_engineer",
+                    "password_hash": "d6a5f553037b16c247e8cef4f7bb7849e325610e86bf848ca68e10acca3fd99026067eb16914c4fd4f3ce1a371ee552081030d2fbd74bb6221154b4729ed4c66"
+                },
+                {
+                    "username": "soc_operator",
+                    "password_hash": "a88bfdc00639734485329f03f400f0c806e1cf1d72c23d5222a179b5b69891e4246827dad79f575955457f7462269839334d6785e0be5bec86505967ec6f39e4"
+                },
+                {
+                    "username": "forensic_lead",
+                    "password_hash": "facb83840c3e1843dbfcbc4cbd41967b10d42d05205b3f4ec564a3d18be03087e8a08eab1e69815bc9303935f1fb6ed22395f1b3cffdbc06eb1d235f449edc6b"
+                },
+                {
+                    "username": "cloud_security",
+                    "password_hash": "f9a67e525e4ab132851a6925d029e2ef63b124db540ef42d12ac597d65f696334b9867a69222cfdacf4d9225299c60b66ea9e06bcfcf0f513f4cfbcbca479a9c"
+                },
+                {
+                    "username": "network_admin",
+                    "password_hash": "c2ee6c6bbba32ca9f982f4da5151d6cc819743ae1a2f29127a9565c785bc07f02cab664b1a33ef675c4a2034d72e165103b80463e3ca1b09d1c8b7eefd4f8adf"
+                },
+                {
+                    "username": "intern_student",
+                    "password_hash": "37b25284403a0ecc8fd2ab675bd833c93e861277648b7c092748b7a7df9fbb3e59c332d5f4e5d4fdabe43f67367225fe083318a3e8884a314574b55e584c253a"
+                }
+            ]
+        }
+    },
+    {
+        "event": "login",
+        "user": "admin_alpha",
+        "result": "failure",
+        "timestamp": "2026-09-20 15:31:10",
+        "args": [
+            "admin_alpha",
+            "WrongPasswordLength123!"
+        ],
+        "kwargs": {
+            "users_db": [
+                {
+                    "username": "admin_alpha",
+                    "password_hash": "71a140d9bb6ca9235cf4e849481984e8b83f0f3fe45a2b0921898f971369445c9b21301a8a630c5e56a8f0ef26eef8ce27430b3827c686f5dd881a0941a7b99f"
+                },
+                {
+                    "username": "analyst_beta",
+                    "password_hash": "7fcc917612aeacd44d68bb8e7d78dda94c80ed9ca008aeeffd96e51d3d40e990a42bbc9a7d2998598625f8ffcaf142996ffa79eb7d4f900fcce57cee27d90cb5"
+                },
+                {
+                    "username": "manager_gamma",
+                    "password_hash": "caee01072cd817bd706bff8095f50a2b2a2ed04364d4a3ef02ea4145ab31824ae34a6362aa7ede252de23a1999c4347c3d86d6f7083e91e37469b5755c6794fe"
+                },
+                {
+                    "username": "auditor_delta",
+                    "password_hash": "90b9c0d7dd63779f589e676b58deadee1a09d8bda488305f9ecb7d7a7e0bc4820d35a7e559243a7feaa14aa70b272d18661351cb3beddcdb3a0d9d6d39c384f0"
+                },
+                {
+                    "username": "dev_engineer",
+                    "password_hash": "d6a5f553037b16c247e8cef4f7bb7849e325610e86bf848ca68e10acca3fd99026067eb16914c4fd4f3ce1a371ee552081030d2fbd74bb6221154b4729ed4c66"
+                },
+                {
+                    "username": "soc_operator",
+                    "password_hash": "a88bfdc00639734485329f03f400f0c806e1cf1d72c23d5222a179b5b69891e4246827dad79f575955457f7462269839334d6785e0be5bec86505967ec6f39e4"
+                },
+                {
+                    "username": "forensic_lead",
+                    "password_hash": "facb83840c3e1843dbfcbc4cbd41967b10d42d05205b3f4ec564a3d18be03087e8a08eab1e69815bc9303935f1fb6ed22395f1b3cffdbc06eb1d235f449edc6b"
+                },
+                {
+                    "username": "cloud_security",
+                    "password_hash": "f9a67e525e4ab132851a6925d029e2ef63b124db540ef42d12ac597d65f696334b9867a69222cfdacf4d9225299c60b66ea9e06bcfcf0f513f4cfbcbca479a9c"
+                },
+                {
+                    "username": "network_admin",
+                    "password_hash": "c2ee6c6bbba32ca9f982f4da5151d6cc819743ae1a2f29127a9565c785bc07f02cab664b1a33ef675c4a2034d72e165103b80463e3ca1b09d1c8b7eefd4f8adf"
+                },
+                {
+                    "username": "intern_student",
+                    "password_hash": "37b25284403a0ecc8fd2ab675bd833c93e861277648b7c092748b7a7df9fbb3e59c332d5f4e5d4fdabe43f67367225fe083318a3e8884a314574b55e584c253a"
+                }
+            ]
+        }
+    },
+    {
+        "event": "login",
+        "user": "unknown_user",
+        "result": "failure",
+        "timestamp": "2026-09-20 15:31:10",
+        "args": [
+            "unknown_user",
+            "AnyValidPassword123!"
+        ],
+        "kwargs": {
+            "users_db": [
+                {
+                    "username": "admin_alpha",
+                    "password_hash": "71a140d9bb6ca9235cf4e849481984e8b83f0f3fe45a2b0921898f971369445c9b21301a8a630c5e56a8f0ef26eef8ce27430b3827c686f5dd881a0941a7b99f"
+                },
+                {
+                    "username": "analyst_beta",
+                    "password_hash": "7fcc917612aeacd44d68bb8e7d78dda94c80ed9ca008aeeffd96e51d3d40e990a42bbc9a7d2998598625f8ffcaf142996ffa79eb7d4f900fcce57cee27d90cb5"
+                },
+                {
+                    "username": "manager_gamma",
+                    "password_hash": "caee01072cd817bd706bff8095f50a2b2a2ed04364d4a3ef02ea4145ab31824ae34a6362aa7ede252de23a1999c4347c3d86d6f7083e91e37469b5755c6794fe"
+                },
+                {
+                    "username": "auditor_delta",
+                    "password_hash": "90b9c0d7dd63779f589e676b58deadee1a09d8bda488305f9ecb7d7a7e0bc4820d35a7e559243a7feaa14aa70b272d18661351cb3beddcdb3a0d9d6d39c384f0"
+                },
+                {
+                    "username": "dev_engineer",
+                    "password_hash": "d6a5f553037b16c247e8cef4f7bb7849e325610e86bf848ca68e10acca3fd99026067eb16914c4fd4f3ce1a371ee552081030d2fbd74bb6221154b4729ed4c66"
+                },
+                {
+                    "username": "soc_operator",
+                    "password_hash": "a88bfdc00639734485329f03f400f0c806e1cf1d72c23d5222a179b5b69891e4246827dad79f575955457f7462269839334d6785e0be5bec86505967ec6f39e4"
+                },
+                {
+                    "username": "forensic_lead",
+                    "password_hash": "facb83840c3e1843dbfcbc4cbd41967b10d42d05205b3f4ec564a3d18be03087e8a08eab1e69815bc9303935f1fb6ed22395f1b3cffdbc06eb1d235f449edc6b"
+                },
+                {
+                    "username": "cloud_security",
+                    "password_hash": "f9a67e525e4ab132851a6925d029e2ef63b124db540ef42d12ac597d65f696334b9867a69222cfdacf4d9225299c60b66ea9e06bcfcf0f513f4cfbcbca479a9c"
+                },
+                {
+                    "username": "network_admin",
+                    "password_hash": "c2ee6c6bbba32ca9f982f4da5151d6cc819743ae1a2f29127a9565c785bc07f02cab664b1a33ef675c4a2034d72e165103b80463e3ca1b09d1c8b7eefd4f8adf"
+                },
+                {
+                    "username": "intern_student",
+                    "password_hash": "37b25284403a0ecc8fd2ab675bd833c93e861277648b7c092748b7a7df9fbb3e59c332d5f4e5d4fdabe43f67367225fe083318a3e8884a314574b55e584c253a"
+                }
+            ]
+        }
+    },
+    {
+        "event": "login",
+        "user": "admin_alpha",
+        "result": "success",
+        "timestamp": "2026-09-20 15:56:05",
+        "args": [
+            "admin_alpha",
+            "SuperSecretPass2026!"
+        ],
+        "kwargs": {
+            "users_db": [
+                {
+                    "username": "admin_alpha",
+                    "password_hash": "71a140d9bb6ca9235cf4e849481984e8b83f0f3fe45a2b0921898f971369445c9b21301a8a630c5e56a8f0ef26eef8ce27430b3827c686f5dd881a0941a7b99f"
+                },
+                {
+                    "username": "analyst_beta",
+                    "password_hash": "7fcc917612aeacd44d68bb8e7d78dda94c80ed9ca008aeeffd96e51d3d40e990a42bbc9a7d2998598625f8ffcaf142996ffa79eb7d4f900fcce57cee27d90cb5"
+                },
+                {
+                    "username": "manager_gamma",
+                    "password_hash": "caee01072cd817bd706bff8095f50a2b2a2ed04364d4a3ef02ea4145ab31824ae34a6362aa7ede252de23a1999c4347c3d86d6f7083e91e37469b5755c6794fe"
+                },
+                {
+                    "username": "auditor_delta",
+                    "password_hash": "90b9c0d7dd63779f589e676b58deadee1a09d8bda488305f9ecb7d7a7e0bc4820d35a7e559243a7feaa14aa70b272d18661351cb3beddcdb3a0d9d6d39c384f0"
+                },
+                {
+                    "username": "dev_engineer",
+                    "password_hash": "d6a5f553037b16c247e8cef4f7bb7849e325610e86bf848ca68e10acca3fd99026067eb16914c4fd4f3ce1a371ee552081030d2fbd74bb6221154b4729ed4c66"
+                },
+                {
+                    "username": "soc_operator",
+                    "password_hash": "a88bfdc00639734485329f03f400f0c806e1cf1d72c23d5222a179b5b69891e4246827dad79f575955457f7462269839334d6785e0be5bec86505967ec6f39e4"
+                },
+                {
+                    "username": "forensic_lead",
+                    "password_hash": "facb83840c3e1843dbfcbc4cbd41967b10d42d05205b3f4ec564a3d18be03087e8a08eab1e69815bc9303935f1fb6ed22395f1b3cffdbc06eb1d235f449edc6b"
+                },
+                {
+                    "username": "cloud_security",
+                    "password_hash": "f9a67e525e4ab132851a6925d029e2ef63b124db540ef42d12ac597d65f696334b9867a69222cfdacf4d9225299c60b66ea9e06bcfcf0f513f4cfbcbca479a9c"
+                },
+                {
+                    "username": "network_admin",
+                    "password_hash": "c2ee6c6bbba32ca9f982f4da5151d6cc819743ae1a2f29127a9565c785bc07f02cab664b1a33ef675c4a2034d72e165103b80463e3ca1b09d1c8b7eefd4f8adf"
+                },
+                {
+                    "username": "intern_student",
+                    "password_hash": "37b25284403a0ecc8fd2ab675bd833c93e861277648b7c092748b7a7df9fbb3e59c332d5f4e5d4fdabe43f67367225fe083318a3e8884a314574b55e584c253a"
+                }
+            ]
+        }
+    },
+    {
+        "event": "login",
+        "user": "admin_alpha",
+        "result": "failure",
+        "timestamp": "2026-09-20 15:56:05",
+        "args": [
+            "admin_alpha",
+            "WrongPasswordLength123!"
+        ],
+        "kwargs": {
+            "users_db": [
+                {
+                    "username": "admin_alpha",
+                    "password_hash": "71a140d9bb6ca9235cf4e849481984e8b83f0f3fe45a2b0921898f971369445c9b21301a8a630c5e56a8f0ef26eef8ce27430b3827c686f5dd881a0941a7b99f"
+                },
+                {
+                    "username": "analyst_beta",
+                    "password_hash": "7fcc917612aeacd44d68bb8e7d78dda94c80ed9ca008aeeffd96e51d3d40e990a42bbc9a7d2998598625f8ffcaf142996ffa79eb7d4f900fcce57cee27d90cb5"
+                },
+                {
+                    "username": "manager_gamma",
+                    "password_hash": "caee01072cd817bd706bff8095f50a2b2a2ed04364d4a3ef02ea4145ab31824ae34a6362aa7ede252de23a1999c4347c3d86d6f7083e91e37469b5755c6794fe"
+                },
+                {
+                    "username": "auditor_delta",
+                    "password_hash": "90b9c0d7dd63779f589e676b58deadee1a09d8bda488305f9ecb7d7a7e0bc4820d35a7e559243a7feaa14aa70b272d18661351cb3beddcdb3a0d9d6d39c384f0"
+                },
+                {
+                    "username": "dev_engineer",
+                    "password_hash": "d6a5f553037b16c247e8cef4f7bb7849e325610e86bf848ca68e10acca3fd99026067eb16914c4fd4f3ce1a371ee552081030d2fbd74bb6221154b4729ed4c66"
+                },
+                {
+                    "username": "soc_operator",
+                    "password_hash": "a88bfdc00639734485329f03f400f0c806e1cf1d72c23d5222a179b5b69891e4246827dad79f575955457f7462269839334d6785e0be5bec86505967ec6f39e4"
+                },
+                {
+                    "username": "forensic_lead",
+                    "password_hash": "facb83840c3e1843dbfcbc4cbd41967b10d42d05205b3f4ec564a3d18be03087e8a08eab1e69815bc9303935f1fb6ed22395f1b3cffdbc06eb1d235f449edc6b"
+                },
+                {
+                    "username": "cloud_security",
+                    "password_hash": "f9a67e525e4ab132851a6925d029e2ef63b124db540ef42d12ac597d65f696334b9867a69222cfdacf4d9225299c60b66ea9e06bcfcf0f513f4cfbcbca479a9c"
+                },
+                {
+                    "username": "network_admin",
+                    "password_hash": "c2ee6c6bbba32ca9f982f4da5151d6cc819743ae1a2f29127a9565c785bc07f02cab664b1a33ef675c4a2034d72e165103b80463e3ca1b09d1c8b7eefd4f8adf"
+                },
+                {
+                    "username": "intern_student",
+                    "password_hash": "37b25284403a0ecc8fd2ab675bd833c93e861277648b7c092748b7a7df9fbb3e59c332d5f4e5d4fdabe43f67367225fe083318a3e8884a314574b55e584c253a"
+                }
+            ]
+        }
+    },
+    {
+        "event": "login",
+        "user": "unknown_user",
+        "result": "failure",
+        "timestamp": "2026-09-20 15:56:05",
+        "args": [
+            "unknown_user",
+            "AnyValidPassword123!"
+        ],
+        "kwargs": {
+            "users_db": [
+                {
+                    "username": "admin_alpha",
+                    "password_hash": "71a140d9bb6ca9235cf4e849481984e8b83f0f3fe45a2b0921898f971369445c9b21301a8a630c5e56a8f0ef26eef8ce27430b3827c686f5dd881a0941a7b99f"
+                },
+                {
+                    "username": "analyst_beta",
+                    "password_hash": "7fcc917612aeacd44d68bb8e7d78dda94c80ed9ca008aeeffd96e51d3d40e990a42bbc9a7d2998598625f8ffcaf142996ffa79eb7d4f900fcce57cee27d90cb5"
+                },
+                {
+                    "username": "manager_gamma",
+                    "password_hash": "caee01072cd817bd706bff8095f50a2b2a2ed04364d4a3ef02ea4145ab31824ae34a6362aa7ede252de23a1999c4347c3d86d6f7083e91e37469b5755c6794fe"
+                },
+                {
+                    "username": "auditor_delta",
+                    "password_hash": "90b9c0d7dd63779f589e676b58deadee1a09d8bda488305f9ecb7d7a7e0bc4820d35a7e559243a7feaa14aa70b272d18661351cb3beddcdb3a0d9d6d39c384f0"
+                },
+                {
+                    "username": "dev_engineer",
+                    "password_hash": "d6a5f553037b16c247e8cef4f7bb7849e325610e86bf848ca68e10acca3fd99026067eb16914c4fd4f3ce1a371ee552081030d2fbd74bb6221154b4729ed4c66"
+                },
+                {
+                    "username": "soc_operator",
+                    "password_hash": "a88bfdc00639734485329f03f400f0c806e1cf1d72c23d5222a179b5b69891e4246827dad79f575955457f7462269839334d6785e0be5bec86505967ec6f39e4"
+                },
+                {
+                    "username": "forensic_lead",
+                    "password_hash": "facb83840c3e1843dbfcbc4cbd41967b10d42d05205b3f4ec564a3d18be03087e8a08eab1e69815bc9303935f1fb6ed22395f1b3cffdbc06eb1d235f449edc6b"
+                },
+                {
+                    "username": "cloud_security",
+                    "password_hash": "f9a67e525e4ab132851a6925d029e2ef63b124db540ef42d12ac597d65f696334b9867a69222cfdacf4d9225299c60b66ea9e06bcfcf0f513f4cfbcbca479a9c"
+                },
+                {
+                    "username": "network_admin",
+                    "password_hash": "c2ee6c6bbba32ca9f982f4da5151d6cc819743ae1a2f29127a9565c785bc07f02cab664b1a33ef675c4a2034d72e165103b80463e3ca1b09d1c8b7eefd4f8adf"
+                },
+                {
+                    "username": "intern_student",
+                    "password_hash": "37b25284403a0ecc8fd2ab675bd833c93e861277648b7c092748b7a7df9fbb3e59c332d5f4e5d4fdabe43f67367225fe083318a3e8884a314574b55e584c253a"
+                }
+            ]
+        }
+    },
+    {
+        "event": "login",
+        "user": "admin_alpha",
+        "result": "success",
+        "timestamp": "2026-09-21 01:01:27",
+        "args": [
+            "admin_alpha",
+            "SuperSecretPass2026!"
+        ],
+        "kwargs": {
+            "users_db": [
+                {
+                    "username": "admin_alpha",
+                    "password_hash": "71a140d9bb6ca9235cf4e849481984e8b83f0f3fe45a2b0921898f971369445c9b21301a8a630c5e56a8f0ef26eef8ce27430b3827c686f5dd881a0941a7b99f"
+                },
+                {
+                    "username": "analyst_beta",
+                    "password_hash": "7fcc917612aeacd44d68bb8e7d78dda94c80ed9ca008aeeffd96e51d3d40e990a42bbc9a7d2998598625f8ffcaf142996ffa79eb7d4f900fcce57cee27d90cb5"
+                },
+                {
+                    "username": "manager_gamma",
+                    "password_hash": "caee01072cd817bd706bff8095f50a2b2a2ed04364d4a3ef02ea4145ab31824ae34a6362aa7ede252de23a1999c4347c3d86d6f7083e91e37469b5755c6794fe"
+                },
+                {
+                    "username": "auditor_delta",
+                    "password_hash": "90b9c0d7dd63779f589e676b58deadee1a09d8bda488305f9ecb7d7a7e0bc4820d35a7e559243a7feaa14aa70b272d18661351cb3beddcdb3a0d9d6d39c384f0"
+                },
+                {
+                    "username": "dev_engineer",
+                    "password_hash": "d6a5f553037b16c247e8cef4f7bb7849e325610e86bf848ca68e10acca3fd99026067eb16914c4fd4f3ce1a371ee552081030d2fbd74bb6221154b4729ed4c66"
+                },
+                {
+                    "username": "soc_operator",
+                    "password_hash": "a88bfdc00639734485329f03f400f0c806e1cf1d72c23d5222a179b5b69891e4246827dad79f575955457f7462269839334d6785e0be5bec86505967ec6f39e4"
+                },
+                {
+                    "username": "forensic_lead",
+                    "password_hash": "facb83840c3e1843dbfcbc4cbd41967b10d42d05205b3f4ec564a3d18be03087e8a08eab1e69815bc9303935f1fb6ed22395f1b3cffdbc06eb1d235f449edc6b"
+                },
+                {
+                    "username": "cloud_security",
+                    "password_hash": "f9a67e525e4ab132851a6925d029e2ef63b124db540ef42d12ac597d65f696334b9867a69222cfdacf4d9225299c60b66ea9e06bcfcf0f513f4cfbcbca479a9c"
+                },
+                {
+                    "username": "network_admin",
+                    "password_hash": "c2ee6c6bbba32ca9f982f4da5151d6cc819743ae1a2f29127a9565c785bc07f02cab664b1a33ef675c4a2034d72e165103b80463e3ca1b09d1c8b7eefd4f8adf"
+                },
+                {
+                    "username": "intern_student",
+                    "password_hash": "37b25284403a0ecc8fd2ab675bd833c93e861277648b7c092748b7a7df9fbb3e59c332d5f4e5d4fdabe43f67367225fe083318a3e8884a314574b55e584c253a"
+                }
+            ]
+        }
+    },
+    {
+        "event": "login",
+        "user": "admin_alpha",
+        "result": "failure",
+        "timestamp": "2026-09-21 01:01:28",
+        "args": [
+            "admin_alpha",
+            "WrongPasswordLength123!"
+        ],
+        "kwargs": {
+            "users_db": [
+                {
+                    "username": "admin_alpha",
+                    "password_hash": "71a140d9bb6ca9235cf4e849481984e8b83f0f3fe45a2b0921898f971369445c9b21301a8a630c5e56a8f0ef26eef8ce27430b3827c686f5dd881a0941a7b99f"
+                },
+                {
+                    "username": "analyst_beta",
+                    "password_hash": "7fcc917612aeacd44d68bb8e7d78dda94c80ed9ca008aeeffd96e51d3d40e990a42bbc9a7d2998598625f8ffcaf142996ffa79eb7d4f900fcce57cee27d90cb5"
+                },
+                {
+                    "username": "manager_gamma",
+                    "password_hash": "caee01072cd817bd706bff8095f50a2b2a2ed04364d4a3ef02ea4145ab31824ae34a6362aa7ede252de23a1999c4347c3d86d6f7083e91e37469b5755c6794fe"
+                },
+                {
+                    "username": "auditor_delta",
+                    "password_hash": "90b9c0d7dd63779f589e676b58deadee1a09d8bda488305f9ecb7d7a7e0bc4820d35a7e559243a7feaa14aa70b272d18661351cb3beddcdb3a0d9d6d39c384f0"
+                },
+                {
+                    "username": "dev_engineer",
+                    "password_hash": "d6a5f553037b16c247e8cef4f7bb7849e325610e86bf848ca68e10acca3fd99026067eb16914c4fd4f3ce1a371ee552081030d2fbd74bb6221154b4729ed4c66"
+                },
+                {
+                    "username": "soc_operator",
+                    "password_hash": "a88bfdc00639734485329f03f400f0c806e1cf1d72c23d5222a179b5b69891e4246827dad79f575955457f7462269839334d6785e0be5bec86505967ec6f39e4"
+                },
+                {
+                    "username": "forensic_lead",
+                    "password_hash": "facb83840c3e1843dbfcbc4cbd41967b10d42d05205b3f4ec564a3d18be03087e8a08eab1e69815bc9303935f1fb6ed22395f1b3cffdbc06eb1d235f449edc6b"
+                },
+                {
+                    "username": "cloud_security",
+                    "password_hash": "f9a67e525e4ab132851a6925d029e2ef63b124db540ef42d12ac597d65f696334b9867a69222cfdacf4d9225299c60b66ea9e06bcfcf0f513f4cfbcbca479a9c"
+                },
+                {
+                    "username": "network_admin",
+                    "password_hash": "c2ee6c6bbba32ca9f982f4da5151d6cc819743ae1a2f29127a9565c785bc07f02cab664b1a33ef675c4a2034d72e165103b80463e3ca1b09d1c8b7eefd4f8adf"
+                },
+                {
+                    "username": "intern_student",
+                    "password_hash": "37b25284403a0ecc8fd2ab675bd833c93e861277648b7c092748b7a7df9fbb3e59c332d5f4e5d4fdabe43f67367225fe083318a3e8884a314574b55e584c253a"
+                }
+            ]
+        }
+    },
+    {
+        "event": "login",
+        "user": "unknown_user",
+        "result": "failure",
+        "timestamp": "2026-09-21 01:01:28",
+        "args": [
+            "unknown_user",
+            "AnyValidPassword123!"
+        ],
+        "kwargs": {
+            "users_db": [
+                {
+                    "username": "admin_alpha",
+                    "password_hash": "71a140d9bb6ca9235cf4e849481984e8b83f0f3fe45a2b0921898f971369445c9b21301a8a630c5e56a8f0ef26eef8ce27430b3827c686f5dd881a0941a7b99f"
+                },
+                {
+                    "username": "analyst_beta",
+                    "password_hash": "7fcc917612aeacd44d68bb8e7d78dda94c80ed9ca008aeeffd96e51d3d40e990a42bbc9a7d2998598625f8ffcaf142996ffa79eb7d4f900fcce57cee27d90cb5"
+                },
+                {
+                    "username": "manager_gamma",
+                    "password_hash": "caee01072cd817bd706bff8095f50a2b2a2ed04364d4a3ef02ea4145ab31824ae34a6362aa7ede252de23a1999c4347c3d86d6f7083e91e37469b5755c6794fe"
+                },
+                {
+                    "username": "auditor_delta",
+                    "password_hash": "90b9c0d7dd63779f589e676b58deadee1a09d8bda488305f9ecb7d7a7e0bc4820d35a7e559243a7feaa14aa70b272d18661351cb3beddcdb3a0d9d6d39c384f0"
+                },
+                {
+                    "username": "dev_engineer",
+                    "password_hash": "d6a5f553037b16c247e8cef4f7bb7849e325610e86bf848ca68e10acca3fd99026067eb16914c4fd4f3ce1a371ee552081030d2fbd74bb6221154b4729ed4c66"
+                },
+                {
+                    "username": "soc_operator",
+                    "password_hash": "a88bfdc00639734485329f03f400f0c806e1cf1d72c23d5222a179b5b69891e4246827dad79f575955457f7462269839334d6785e0be5bec86505967ec6f39e4"
+                },
+                {
+                    "username": "forensic_lead",
+                    "password_hash": "facb83840c3e1843dbfcbc4cbd41967b10d42d05205b3f4ec564a3d18be03087e8a08eab1e69815bc9303935f1fb6ed22395f1b3cffdbc06eb1d235f449edc6b"
+                },
+                {
+                    "username": "cloud_security",
+                    "password_hash": "f9a67e525e4ab132851a6925d029e2ef63b124db540ef42d12ac597d65f696334b9867a69222cfdacf4d9225299c60b66ea9e06bcfcf0f513f4cfbcbca479a9c"
+                },
+                {
+                    "username": "network_admin",
+                    "password_hash": "c2ee6c6bbba32ca9f982f4da5151d6cc819743ae1a2f29127a9565c785bc07f02cab664b1a33ef675c4a2034d72e165103b80463e3ca1b09d1c8b7eefd4f8adf"
+                },
+                {
+                    "username": "intern_student",
+                    "password_hash": "37b25284403a0ecc8fd2ab675bd833c93e861277648b7c092748b7a7df9fbb3e59c332d5f4e5d4fdabe43f67367225fe083318a3e8884a314574b55e584c253a"
+                }
+            ]
+        }
+    }
+]
