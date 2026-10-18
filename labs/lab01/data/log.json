@@ -1086,5 +1086,93 @@
             "***"
         ],
         "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "ciso_office",
+        "result": "success",
+        "timestamp": "2026-09-22 20:38:09",
+        "args": [
+            "ciso_office",
+            "***"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "ciso_office",
+        "result": "failure",
+        "timestamp": "2026-09-22 20:38:09",
+        "args": [
+            "ciso_office",
+            "***"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "ciso_office",
+        "result": "failure",
+        "timestamp": "2026-09-22 20:38:09",
+        "args": [
+            "ciso_office",
+            "***"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "",
+        "result": "failure",
+        "timestamp": "2026-09-22 20:38:09",
+        "args": [
+            "",
+            "***"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "ciso_office",
+        "result": "success",
+        "timestamp": "2026-09-27 20:43:21",
+        "args": [
+            "ciso_office",
+            "***"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "ciso_office",
+        "result": "failure",
+        "timestamp": "2026-09-27 20:43:21",
+        "args": [
+            "ciso_office",
+            "***"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "ciso_office",
+        "result": "failure",
+        "timestamp": "2026-09-27 20:43:21",
+        "args": [
+            "ciso_office",
+            "***"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "",
+        "result": "failure",
+        "timestamp": "2026-09-27 20:43:21",
+        "args": [
+            "",
+            "***"
+        ],
+        "kwargs": {}
     }
 ]

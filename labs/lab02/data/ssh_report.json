@@ -1,0 +1,23 @@
+{
+  "threshold": 5,
+  "window_min": 5,
+  "total_events": 20,
+  "time_start": "2026-09-27T08:10:00",
+  "time_end": "2026-09-27T18:32:00",
+  "findings": [
+    {
+      "ip": "203.0.113.77",
+      "total_failures": 7,
+      "max_in_window": 7,
+      "first_failure": "2026-09-27T14:00:00",
+      "last_failure": "2026-09-27T14:03:30",
+      "target_users": [
+        "admin"
+      ],
+      "succeeded_after": true
+    }
+  ],
+  "blocklist": [
+    "203.0.113.77"
+  ]
+}

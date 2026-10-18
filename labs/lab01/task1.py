@@ -3,9 +3,7 @@ import random
 import string
 import sys
 
-sys.path.append(
-    os.path.abspath(os.path.join(os.path.dirname(__file__), "../../"))
-)
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
 from shared.student import STUDENT_NAME, VARIANT_NUMBER
 
 passwords = [
@@ -37,6 +35,8 @@ forbidden_passwords = {
 indices = [random.randint(0, len(passwords) - 1) for _ in range(3)]
 for idx in indices:
     passwords.append(passwords[idx])
+
+
 def evaluate_password_strength(
     password: str,
     rules: dict,
@@ -64,6 +64,8 @@ def evaluate_password_strength(
     ):
         return "Середній"
     return "Слабкий"
+
+
 def print_password_report(results: list, all_passwords: list) -> None:
     w_idx = 4
     w_pwd = 24
@@ -80,7 +82,9 @@ def print_password_report(results: list, all_passwords: list) -> None:
     )
     separator = "-" * len(header)
 
-    print(f"\nЗвіт перевірки паролів (Студент: {STUDENT_NAME}, Варіант: {VARIANT_NUMBER})")
+    print(
+        f"\nЗвіт перевірки паролів (Студент: {STUDENT_NAME}, Варіант: {VARIANT_NUMBER})"
+    )
     print(separator)
     print(header)
     print(separator)
@@ -97,10 +101,9 @@ def print_password_report(results: list, all_passwords: list) -> None:
         )
     print(separator + "\n")
 
+
 analysis_results = []
 for pwd in passwords:
-    stat = evaluate_password_strength(
-        pwd, criteria, forbidden_passwords, passwords
-    )
+    stat = evaluate_password_strength(pwd, criteria, forbidden_passwords, passwords)
     analysis_results.append((pwd, stat))
 print_password_report(analysis_results, passwords)

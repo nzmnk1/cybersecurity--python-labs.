@@ -1,5 +1,3 @@
-"""Завдання 3: Хешування, CSV-база та JSON-логування з винятками."""
-
 import csv
 import functools
 import hashlib
@@ -8,9 +6,7 @@ import os
 import sys
 from datetime import datetime, timezone
 
-sys.path.append(
-    os.path.abspath(os.path.join(os.path.dirname(__file__), "../../"))
-)
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
 from shared.student import STUDENT_NAME, VARIANT_NUMBER
 
 DATA_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "data"))
@@ -23,7 +19,6 @@ HASH_SALT = str(VARIANT_NUMBER).zfill(5)
 
 class ValidationError(Exception):
     """Власний виняток для валідації довжини пароля."""
-
 
 
 def log_event(func):
@@ -65,7 +60,6 @@ def log_event(func):
 
 
 def generate_hash(password: str, salt: str = "00000") -> str:
-    """Генерує хеш SHA-512 від конкатенації пароля та солі."""
     if not password or not salt:
         raise ValueError("Пароль та сіль не можуть бути порожніми.")
     if len(password) < MIN_PASSWORD_LENGTH:
@@ -78,7 +72,6 @@ def generate_hash(password: str, salt: str = "00000") -> str:
 
 
 def create_user(username: str, password: str) -> tuple[str, str]:
-    """Створює запис користувача з персональною сіллю."""
     return username, generate_hash(password, HASH_SALT)
 
 
@@ -121,9 +114,7 @@ def login(username: str, password: str, users_db: list[dict[str, str]]) -> bool:
         if not username or not password:
             raise ValueError("Логін та пароль не можуть бути порожніми.")
 
-        user_record = next(
-            (u for u in users_db if u.get("username") == username), None
-        )
+        user_record = next((u for u in users_db if u.get("username") == username), None)
         if not user_record:
             return False
 
@@ -157,14 +148,8 @@ def print_users_db(users_db: list[dict[str, str]]) -> None:
     for idx, row in enumerate(users_db, start=1):
         u_name = row.get("username", "")
         u_hash = row.get("password_hash", "")
-        display_hash = (
-            f"{u_hash[:32]}..." if len(u_hash) > 35 else u_hash
-        )
-        print(
-            f"| {idx:<{w_num}} "
-            f"| {u_name:<{w_user}} "
-            f"| {display_hash:<{w_hash}} |"
-        )
+        display_hash = f"{u_hash[:32]}..." if len(u_hash) > 35 else u_hash
+        print(f"| {idx:<{w_num}} | {u_name:<{w_user}} | {display_hash:<{w_hash}} |")
     print(separator + "\n")
 
 
