@@ -1,0 +1,17 @@
+{
+  "categories": [
+    {"id": 1, "name": "failed_login"},
+    {"id": 2, "name": "blocked_account"},
+    {"id": 3, "name": "mfa_failure"}
+  ],
+  "records": [
+    {"code": "V04-01", "title": "Інтервал автентифікації 01", "category_id": 1, "value": 25, "status": "new"},
+    {"code": "V04-02", "title": "Інтервал автентифікації 02", "category_id": 2, "value": 8, "status": "in_progress"},
+    {"code": "V04-03", "title": "Інтервал автентифікації 03", "category_id": 3, "value": 3, "status": "done"},
+    {"code": "V04-04", "title": "Інтервал автентифікації 04", "category_id": 1, "value": 40, "status": "new"},
+    {"code": "V04-05", "title": "Інтервал автентифікації 05", "category_id": 2, "value": 12, "status": "done"},
+    {"code": "V04-06", "title": "Інтервал автентифікації 06", "category_id": 3, "value": 5, "status": "in_progress"},
+    {"code": "V04-07", "title": "Інтервал автентифікації 07", "category_id": 1, "value": 18, "status": "done"},
+    {"code": "V04-08", "title": "Інтервал автентифікації 08", "category_id": 2, "value": 22, "status": "new"}
+  ]
+}
